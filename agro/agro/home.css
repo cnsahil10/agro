@@ -1,0 +1,116 @@
+.container1{
+    background-image:url("tea.png");
+    height: 900px;
+    margin-bottom: 0;
+}
+.nav{
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0,0.47);
+    
+    
+}
+.nav li{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    color: white;
+}
+.nav button{
+    width:120px ;
+    padding: 13px;
+    border-radius: 7px;
+    border: 0;
+    background-color: rgb(99, 23, 23);
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    color: white;
+    transition: 0.45s;
+}
+.nav button:hover{
+    background-color:rgb(56, 14, 14);
+    transition: 0.45s;
+}
+.heading{
+    text-align: center;
+    color: white;
+    padding: 0 300px 0 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 150px;
+    
+}
+.heading button{
+    width:150px ;
+    padding: 13px;
+    border-radius: 7px;
+    border: 0;
+    background-color: rgb(99, 23, 23);
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    color: white;
+    transition: 0.45s;
+    margin-top: 50px;
+}
+.heading button:hover{
+    background-color:rgb(56, 14, 14);
+    transition: 0.45s;
+}
+ p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 200px;
+    font-weight: 300;
+    
+}
+.container2{
+    background-color: rgb(255, 245, 233);
+    margin-top: 0;
+    height: 1500px;
+    display: flex;
+}
+.aboutus{
+    width: 50%;
+    margin-left: 150px;
+    padding-top: 100px;
+    display: inline-block;
+
+}
+.aboutus h5{
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: brown;
+    margin-bottom: 15px;
+}
+.aboutus h2{
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(13, 68, 13);
+    margin-bottom: 15px;
+}
+h5.para{
+     color: black;
+     font-size: 17px;
+     font-weight: 100;
+     line-height: 25px;
+     margin-bottom: 40px;
+     width: 500px;
+}
+.coffee{
+    display: inline-block;
+    width: 50%;
+    /* margin-left: 150px; */
+    padding-top: 100px;
+}
